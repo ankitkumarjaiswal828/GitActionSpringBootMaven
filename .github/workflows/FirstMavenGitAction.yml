@@ -1,8 +1,5 @@
 name: My First Workflow
 
-
-
-
 on: 
  push:
  workflow_dispatch:
@@ -10,10 +7,6 @@ on:
 jobs:
   echo-print:
    runs-on: ubuntu-latest
-   
-
-        
-
    steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-java@v4.5.0
